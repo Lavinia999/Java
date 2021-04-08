@@ -19,7 +19,12 @@ public class Main {
         }
         System.out.println(sum);
         //ex4
-
+        int H=10; int A=3; int B=2; int day;
+        H=H-A; day=1+H/(A-B);
+        if (H%(A-B)!=0){
+            day++;
+        }
+        System.out.println(day);
         //ex5
         int v=100; int t=2; int d=0;
         System.out.println(d = v/t);
@@ -35,6 +40,6 @@ public class Main {
         boolean res1=one!=two; boolean res2=two!=three; boolean res3=one!=three;
         System.out.println(res1&res2&res3);
         //ex9
-        
+
     }
 }
